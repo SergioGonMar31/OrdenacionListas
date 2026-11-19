@@ -9,39 +9,6 @@ El objetivo es didáctico: ver cómo funciona cada algoritmo, compararlos y ente
 
 ---
 
-## Algoritmos incluidos
-
-| Algoritmo | Mejor caso | Peor caso | Estable | In-place | Idea principal |
-|-----------|-----------|-----------|:-------:|:--------:|----------------|
-| `QuickSort` | O(n log n) | O(n²) | No | Sí | Divide la lista alrededor de un pivote |
-| `MergeSort` | O(n log n) | O(n log n) | Sí | No | Divide por la mitad y mezcla listas ordenadas |
-| `PancakeSort` | O(n²) | O(n²) | No | Sí | Solo permite voltear prefijos de la lista |
-| `SelectionSort` | O(n²) | O(n²) | No | Sí | Busca el menor y lo coloca al principio |
-| `InsertionSort` | O(n) | O(n²) | Sí | Sí | Inserta cada elemento en su sitio, como ordenar cartas |
-
----
-
-## Estructura del proyecto
-
-```
-kotlin-sorting-algorithms/
-├── build.gradle.kts
-├── settings.gradle.kts
-├── README.md
-└── src/
-    └── main/
-        └── kotlin/
-            ├── Main.kt
-            ├── QuickSort.kt
-            ├── MergeSort.kt
-            ├── HeapSort.kt
-            ├── PancakeSort.kt
-            ├── SelectionSort.kt
-            ├── BubbleSort.kt
-            └── InsertionSort.kt
-```
-
----
 
 ## Detalle de cada algoritmo
 
