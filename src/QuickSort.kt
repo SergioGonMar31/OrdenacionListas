@@ -2,8 +2,8 @@ object QuickSort {
 
     fun <T : Comparable<T>> sort(lista: MutableList<T>): MutableList<T> {
         val copia = lista.toMutableList()
-        if (lista.size > 1) {
-            ordenar(lista, 0, lista.size - 1)
+        if (copia.size > 1) {
+            ordenar(copia, 0, copia.size - 1)
         }
         return copia
     }
