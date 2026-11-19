@@ -12,6 +12,8 @@ class Algoritmos {
                 "0" -> salir=true
                 "1" -> mostrarListas(QuickSort.sort(listaNumero), QuickSort.sort(listaVehiculo))
                 "2" -> mostrarListas(PancakeSort.sort(listaNumero), PancakeSort.sort(listaVehiculo))
+                "3" -> mostrarListas(MergeSort.sort(listaNumero), MergeSort.sort(listaVehiculo))
+                "4" -> mostrarListas(SelectionSort.sort(listaNumero), SelectionSort.sort(listaVehiculo))
                 "6" -> mostrarListas(listaNumero, listaVehiculo)
                 else -> println("Introduce una opción valida")
             }
@@ -21,9 +23,9 @@ class Algoritmos {
     private fun menu(): String {
         return "\n===ALGORITMOS===\n" +
                 "1. QuickSort\n" +
-                "2. Pancake Sort\n" +
+                "2. PancakeSort\n" +
                 "3. MergeSort\n" +
-                "4. \n" +
+                "4. SelectionSort\n" +
                 "5. \n" +
                 "6. Mostrar listas\n" +
                 "0. Salir"
