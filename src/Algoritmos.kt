@@ -14,6 +14,7 @@ class Algoritmos {
                 "2" -> mostrarListas(PancakeSort.sort(listaNumero), PancakeSort.sort(listaVehiculo))
                 "3" -> mostrarListas(MergeSort.sort(listaNumero), MergeSort.sort(listaVehiculo))
                 "4" -> mostrarListas(SelectionSort.sort(listaNumero), SelectionSort.sort(listaVehiculo))
+                "5" -> mostrarListas(InsertionSort.sort(listaNumero), InsertionSort.sort(listaVehiculo))
                 "6" -> mostrarListas(listaNumero, listaVehiculo)
                 else -> println("Introduce una opción valida")
             }
@@ -26,7 +27,7 @@ class Algoritmos {
                 "2. PancakeSort\n" +
                 "3. MergeSort\n" +
                 "4. SelectionSort\n" +
-                "5. \n" +
+                "5. InsertionSort\n" +
                 "6. Mostrar listas\n" +
                 "0. Salir"
     }
